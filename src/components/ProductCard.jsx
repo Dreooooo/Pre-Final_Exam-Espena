@@ -1,4 +1,3 @@
-
 function ProductCard({
   product,
   onAddToCart,

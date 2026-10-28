@@ -252,7 +252,6 @@ function App() {
       )
     )
 
-    // Keep the cart synchronized if the inventory stock changes.
     setCartItems((items) =>
       items
         .map((item) =>

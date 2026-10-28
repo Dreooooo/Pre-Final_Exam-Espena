@@ -1,4 +1,3 @@
-
 function Cart({ items, onQuantityChange, onRemoveItem, onClose }) {
   const total = items.reduce(
     (sum, item) => sum + item.price * item.cartQuantity,
